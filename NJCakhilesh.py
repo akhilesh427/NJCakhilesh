@@ -8,8 +8,8 @@ command1=""" CREATE TABLE IF NOT EXISTS FavMovies(name TEXT PRIMARY KEY,actor TE
 cursor.execute(command1)
 
 
-cursor.execute(" INSERT INTO FavMovies VALUES ('Sholay','Amitabh Bachchan','Hema Malini','Ramesh Sippy',1975)")
-cursor.execute(" INSERT INTO FavMovies VALUES ('Don','Amitabh Bachchan','Zeenat Aman','Chandra Barot',1978)")
+cursor.execute(" INSERT INTO FavMovies VALUES ('Airlift','Akshay Kumar','Nimrat Kaur','Raja Krishna Menon',2016)")
+cursor.execute(" INSERT INTO FavMovies VALUES ('Chichorre','Sushant Singh Rajput','Shradha kapoor','Nitesh Tiwari',2019)")
 cursor.execute(" INSERT INTO FavMovies VALUES ('Mimi','Panakj Tripati','Kriti Sanon','Laxman Utekar',2021)")
 cursor.execute(" INSERT INTO FavMovies VALUES ('Inception','LeonardoDeCaprio','Marion Cotillard','Cristopher Nolan',2010)")
 
